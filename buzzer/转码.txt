@@ -1,0 +1,2 @@
+ffmpeg -i 陈奕迅-黄金时代.mp3 -f u8 -ar 8000 -ac 1 -acodec pcm_u8 8000.pcm
+ffplay -ar 8000 -channels 1 -f u8 -i 8000.pcm

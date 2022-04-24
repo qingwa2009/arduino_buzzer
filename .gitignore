@@ -1,0 +1,6 @@
+﻿**/*.workspace
+**/Project Backups/**
+**/debug/**
+bin/**
+**/*.pcm
+**/*.mp3
