@@ -49,43 +49,43 @@
     {                            \
         PORTD |= _BV(PORTD1);    \
         DDRD &= ~(_BV(DDD1));    \
-    } while (1)
+    } while (0)
 #define MYPIN_2_READ_MODE_PULLUP \
     do                           \
     {                            \
         PORTD |= _BV(PORTD2);    \
         DDRD &= ~(_BV(DDD2));    \
-    } while (2)
+    } while (0)
 #define MYPIN_3_READ_MODE_PULLUP \
     do                           \
     {                            \
         PORTD |= _BV(PORTD3);    \
         DDRD &= ~(_BV(DDD3));    \
-    } while (3)
+    } while (0)
 #define MYPIN_4_READ_MODE_PULLUP \
     do                           \
     {                            \
         PORTD |= _BV(PORTD4);    \
         DDRD &= ~(_BV(DDD4));    \
-    } while (4)
+    } while (0)
 #define MYPIN_5_READ_MODE_PULLUP \
     do                           \
     {                            \
         PORTD |= _BV(PORTD5);    \
         DDRD &= ~(_BV(DDD5));    \
-    } while (5)
+    } while (0)
 #define MYPIN_6_READ_MODE_PULLUP \
     do                           \
     {                            \
         PORTD |= _BV(PORTD6);    \
         DDRD &= ~(_BV(DDD6));    \
-    } while (6)
+    } while (0)
 #define MYPIN_7_READ_MODE_PULLUP \
     do                           \
     {                            \
         PORTD |= _BV(PORTD7);    \
         DDRD &= ~(_BV(DDD7));    \
-    } while (7)
+    } while (0)
 
 #define MYPIN_0_READ_HIGH (PIND & (_BV(PIND0)))
 #define MYPIN_1_READ_HIGH (PIND & (_BV(PIND1)))
